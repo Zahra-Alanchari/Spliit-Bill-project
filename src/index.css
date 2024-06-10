@@ -1,0 +1,76 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+.list {
+  padding: 3px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
+.pic {
+  border-radius: 50px;
+}
+.btnSelect {
+  background-color: orange;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+}
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+form input {
+  border: 1px solid gray;
+}
+.add {
+  background-color: rgb(229, 208, 169);
+  width: 290px;
+  padding: 20px;
+  position: relative;
+}
+.add input {
+  position: absolute;
+  right: 4px;
+}
+.bill {
+  background-color: rgb(229, 208, 169);
+  width: 370px;
+  padding: 20px;
+  position: absolute;
+  top: 30px;
+  left: 370px;
+}
+.bill h2 {
+  margin-bottom: 20px;
+}
+.bill input {
+  margin-bottom: 20px;
+  position: absolute;
+  right: 10px;
+  border-radius: 3px;
+}
+.bill select {
+  width: 140px;
+  position: absolute;
+  right: 10px;
+  border-radius: 3px;
+}
+button {
+  padding: 5px;
+  border-radius: 4px;
+  background-color: orange;
+}
+.selected {
+  background-color: rgb(242, 218, 208);
+}
